@@ -1,0 +1,86 @@
+.game-map {
+    display: grid;
+
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+
+    background-color: #8d8e7e;
+
+    padding: 10px;
+}
+.tile-wall{
+    
+
+    background-image: url("blickor.png");
+    width: auto;
+    height: auto;
+
+}
+
+body{
+    background-color: rgb(81, 74, 52);
+}
+
+.tile-space{
+  
+    background-color: white;
+
+    border: 1px solid rgb(92, 91, 91);
+
+    font-size: 50px;
+
+    text-align: center;
+
+     height: 70px;
+}
+
+.tile-goal{
+    background-color: rgb(106, 110, 30);
+    width: auto;
+    height: auto;
+}
+
+.entity-player{
+
+    background-color: rgb(41, 34, 13);
+    }
+
+.entity-block{
+   
+    background-color: rgb(211, 200, 161);
+}
+
+.entity-block-goal{
+   
+    background-color:rgb(224, 187, 78);
+    width: auto;
+    height: auto;
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+   
+}
+
+img{
+    padding: 8px;
+}
+
+.dark {
+    background-color: #888;
+}
+
+.light{
+    background-color: #fff;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 600px;
+    margin: 50px auto; 
+}
+
+main{
+    background-color: #ddd;
+}
